@@ -1,0 +1,21 @@
+user_id,email,name
+1,invalid-email,User 1
+2,user2@example.com,User 2
+3,user3@example.com,User 3
+4,user4@example.com,
+5,user5@example.com,User 5
+6,user6@example.com,User 6
+7,user7@example.com,User 7
+8,user8@example.com,User 8
+9,invalid-email,User 9
+10,user10@example.com,User 10
+11,user11@example.com,User 11
+12,user12@example.com,User 12
+13,user13@example.com,User 13
+14,user14@example.com,User 14
+15,user15@example.com,User 15
+16,user16@example.com,User 16
+17,user17@example.com,User 17
+18,user18@example.com,User 18
+19,user19@example.com,User 19
+20,user20@example.com,User 20
