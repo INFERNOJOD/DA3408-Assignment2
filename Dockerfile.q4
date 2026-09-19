@@ -5,7 +5,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY model.joblib .
-COPY app_v2.py app.py
+COPY app_v3.py app.py
 
 EXPOSE 8000
 
