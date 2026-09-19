@@ -1,6 +1,7 @@
 import csv
 import os
 import re
+import time
 
 shard_index = os.environ["SHARD_INDEX"]
 node_name = os.environ["NODE_NAME"]
@@ -21,6 +22,7 @@ with open(shard_file, newline="") as f:
         if not valid_email or not valid_name:
             invalid_count += 1
 
+time.sleep(30)
 print(f"Shard: {shard_index}")
 print(f"Node: {node_name}")
 print(f"Invalid rows: {invalid_count}")
