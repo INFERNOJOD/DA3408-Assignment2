@@ -18,7 +18,7 @@ The model uses TF-IDF with a Multinomial Naive Bayes classifier.
 
 - `train.py` — trains and saves the spam-detection model.
 - `app.py` — REST API implementation with Redis caching.
-- `app_v2.py` — API version used for the Kubernetes rolling update.
+- `app_v3.py` — API version used for the final Kubernetes rolling update.
 - `requirements.txt` — Python dependencies.
 - `spam_dataset.csv` — generated spam-detection dataset.
 
@@ -237,6 +237,6 @@ The detailed results and explanations are provided in `report.pdf`.
 ## Results
 
 - **Q1:** Multi-stage image reduced the reported image size from 723 MB to 710 MB.
-- **Q2:** The repeated cached request was approximately 8.15 times faster.
+- **Q2:** The repeated cached request was approximately 22.1 times faster.
 - **Q3:** 8 shards were processed, with 3 invalid rows per shard and 24 invalid rows in total.
-- **Q4:** The API was deployed with 2 replicas and demonstrated self-healing and a rolling update.
+- **Q4:** API deployed with 2 replicas, self-healing, and a successful rolling update to v3
